@@ -72,7 +72,7 @@ end
 
 -- 3D2D TDUI --
 
-local tdui = include("enzofr60_modules/tdui.lua")
+local tdui = include("autorun/tdui.lua")
 
 local p
 hook.Add("PostDrawTranslucentRenderables", "Paint3D2DUI", function(bDrawingSkybox, bDrawingDepth)
